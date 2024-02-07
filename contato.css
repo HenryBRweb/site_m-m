@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.head {
+    background-color: whitesmoke;
+    height: 130px;
+    width: 100%;
+    padding: 30px;
+}
+
+
+.corpo {
+    background-color: #FFD43E;
+    height: 110vb;
+    border: solid 5px rgba(90, 21, 19);
+}
+
+
+.search-box {
+    transform: translate(500%, -100%);
+    background-color: #c8c8c8;
+    height: 30px;
+    width: 225px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-left: 70%;
+    border: solid;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+}
+
+
+.bandeira {
+    transform: translate(85%, -165%);
+}
+
+.carrinho {
+    transform: translate(89%, -220%);
+}
+
+.pessoa {
+    transform: translate(94%, -385%);
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+}
+
+.imagem {
+    width: 100px;
+}   
